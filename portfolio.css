@@ -1,0 +1,287 @@
+header{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    
+    background-color: rgba(0, 0, 0, 0.748);
+    color: white;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+    padding:  20px;
+    
+    justify-content: space-between;
+    
+    
+}
+nav {
+  display: flex;
+  gap: 30px;
+  font-size: 18px;
+  
+  margin-right: 100px; }
+
+nav a {
+  color: white;
+  text-decoration: none;
+ 
+  padding: 10px;
+  justify-content: center;
+  
+  transition: 0.3s;
+}
+
+nav a:hover {
+  background-color: white;
+  color: black;
+}
+
+
+  
+  body{
+    background-color: rgba(152, 145, 145, 0.732);
+    margin: 0;
+  padding: 0;
+  }
+
+  section {
+    padding: 100px;
+    min-height: 100vh;
+    background-color: #2a2525;
+    border-bottom: 1px solid #ccc;
+  }
+
+  #home{
+    color: white;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    
+  }
+  #home p{
+    font-size: 25px;
+    width: 500px;
+    
+    
+
+  }
+  #home img{
+    width: 400px;
+    height: auto;
+    border-radius: 30px;
+    
+   
+  }
+  .home-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 400px;
+    flex-wrap: wrap; 
+  }
+  
+  
+  #about{
+    color: white;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    
+  }
+
+  #about p{
+    font-size: 25px;
+    width: 1200px;
+    
+    
+
+  }
+  
+  .about-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 400px;
+    flex-wrap: wrap; 
+  }
+
+
+  #works{
+    color: white;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    
+  }
+
+  #works p{
+    font-size: 25px;
+    width: 1200px;
+    
+    
+
+  }
+  
+  .works-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 400px;
+    flex-wrap: wrap; 
+  }
+  #works ul{
+    font-size: 30px;
+   
+  }
+
+
+  #Volunteering{
+    color: white;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    
+    
+  }
+
+  #Volunteering p{
+    font-size: 25px;
+    max-width:  1000px;
+    flex: 1;
+    
+
+  }
+  
+  .Volunteering-wrapper {
+    display: flex;
+    
+    align-items: center;
+    gap: 100px;
+    flex-wrap: wrap; 
+  }
+
+
+  #Volunteering img{
+    width: 200px;
+    height: auto;
+    border-radius: 30px;
+    
+    
+   
+  }
+
+
+
+  #contact{
+    color: white;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    
+  }
+
+  #contact p{
+    font-size: 25px;
+    width: 1200px;
+    
+    
+
+  }
+  
+  .contact-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 400px;
+    flex-wrap: wrap; 
+  }
+
+
+
+  .contact-form {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    max-width: 900px;
+    padding: 20px;
+    flex-wrap: wrap; 
+    justify-content: center;
+    
+  }
+  
+  .contact-form input {
+    flex: 1;
+    min-width: 200px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+
+  .contact-form textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    resize: vertical;
+  }
+  
+  .contact-form button {
+    padding: 12px 20px;
+    background-color: #010f01;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .contact-form button:hover {
+    background-color: #000601;
+  }
+  
+
+  .footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    
+    font-size: 20px;
+
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    
+    
+    text-align: center;
+  }
+  
+  .footer a {
+    color: #f7f9fb;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
+
+ 
+  
+  
+  
+ 
+
+
+  
+
+  
